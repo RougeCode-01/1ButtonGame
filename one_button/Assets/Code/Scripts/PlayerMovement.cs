@@ -24,6 +24,8 @@ public class PlayerMovement : MonoBehaviour
     {
         // Handle user input
         HandleInput();
+        // Stick to the target
+        StickToTarget();
     }
 
     private void HandleInput()
@@ -46,6 +48,16 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             RotateToTheRight();
+        }
+    }
+
+    private void StickToTarget()
+    {
+        // If there's a current target, apply a force towards it
+        if (_currentTarget != null)
+        {
+            Vector2 directionToTarget = (_currentTarget.position - transform.position).normalized;
+            _rigidbody2D.AddForce(directionToTarget * speed, ForceMode2D.Force);
         }
     }
 
