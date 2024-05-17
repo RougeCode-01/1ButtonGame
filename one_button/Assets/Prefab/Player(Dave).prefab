@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 1322905550090183484}
   - component: {fileID: 8877018604477532634}
   - component: {fileID: 3522527984851894982}
-  - component: {fileID: 1752206328758168852}
+  - component: {fileID: 8600105193343756622}
+  - component: {fileID: 102186255441211155}
   m_Layer: 0
-  m_Name: InputObject
-  m_TagString: Untagged
+  m_Name: Player(Dave)
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,10 +47,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23844606ece981b41b7b94c643a7eedc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 150
+  jumpForce: 60
   axis: {x: 0, y: 0, z: 1}
-  button: space
-  targetToRotateAround: {fileID: 0}
+  button: Jump
+  holdTime: 0.15
 --- !u!212 &3522527984851894982
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -91,10 +93,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0, b: 0.04464197, a: 1}
   m_FlipX: 0
-  m_FlipY: 1
+  m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
@@ -102,8 +104,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &1752206328758168852
-PolygonCollider2D:
+--- !u!50 &8600105193343756622
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8534429349953963442}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 5
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
+--- !u!58 &102186255441211155
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -135,18 +164,5 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.28866667}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.51579857, y: 0.3010373}
-      - {x: -0.0026226044, y: -0.5956902}
-      - {x: 0.5184212, y: 0.3069592}
-  m_UseDelaunayMesh: 0
+  serializedVersion: 2
+  m_Radius: 0.5

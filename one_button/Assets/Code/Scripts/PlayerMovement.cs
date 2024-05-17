@@ -2,23 +2,46 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 0;
-    [SerializeField] private float jumpForce = 0;
-    [SerializeField] private Vector3 axis = new Vector3(0, 0, 1);
-    [SerializeField] private string button;
-    private Rigidbody2D _rigidbody2D;
+    // Serialized fields are visible in the Unity editor
+    [SerializeField] private float speed; // Speed of rotation
+    [SerializeField] private float jumpForce; // Force applied when jumping
+    [SerializeField] private Vector3 axis; // Axis of rotation
+    [SerializeField] private string button; // Button to trigger actions
+    [SerializeField] private float holdTime = 0.5f; // Time to wait for determining if the button was pressed or held
+
+    private float timer; // Timer to track button hold time
+    private bool isJumping; // Flag to check if the player is jumping
+    private Rigidbody2D _rigidbody2D; // Reference to the Rigidbody2D component
     private Transform _currentTarget; // Store the current target (collider)
 
     private void Awake()
     {
+        // Get the Rigidbody2D component
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if (Input.GetKeyDown(button))
+        // Handle user input
+        HandleInput();
+    }
+
+    private void HandleInput()
+    {
+        // Check for button press and release
+        if (Input.GetButtonDown(button))
         {
-            Jump();
+            StartPress();
+        }
+        else if (Input.GetButtonUp(button))
+        {
+            EndPress();
+        }
+
+        // Rotate the player based on button hold time
+        if (!isJumping && Input.GetButton(button) && Time.time > timer)
+        {
+            RotateToTheLeft();
         }
         else
         {
@@ -26,45 +49,62 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void StartPress()
+    {
+        // Reset jumping flag and start timer
+        isJumping = false;
+        timer = Time.time + holdTime;
+    }
+
+    private void EndPress()
+    {
+        // Check if button was held or pressed and perform action accordingly
+        if (Time.time < timer)
+        {
+            Jump();
+        }
+        isJumping = true;
+    }
+
     private void RotateToTheRight()
     {
-        if (_currentTarget != null)
-        {
-            // Rotate around the current target
-            transform.RotateAround(_currentTarget.position, -axis, speed * Time.deltaTime);
-        }
+        // Rotate the player to the right
+        Rotate(-axis);
     }
+
     private void RotateToTheLeft()
     {
+        // Rotate the player to the left
+        Rotate(axis);
+    }
+
+    private void Rotate(Vector3 rotationAxis)
+    {
+        // Rotate the player around the current target
         if (_currentTarget != null)
         {
-            // Rotate around the current target
-            transform.RotateAround(_currentTarget.position, axis, speed * Time.deltaTime);
+            transform.RotateAround(_currentTarget.position, rotationAxis, speed * Time.deltaTime);
         }
     }
 
     private void Jump()
     {
+        // Make the player jump away from the current target
         if (_currentTarget != null)
         {
-            // Calculate the direction from the player to the target
             Vector2 directionToTarget = (_currentTarget.position - transform.position).normalized;
-
-            // Detach from the current target
             _currentTarget = null;
-
-            // Apply a force in the opposite direction
             _rigidbody2D.AddForce(-directionToTarget * jumpForce, ForceMode2D.Impulse);
-
             Debug.Log("Jumping");
         }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        // Check if the player collided with a circle and set it as the current target
         if (other.gameObject.CompareTag("Circle"))
         {
-            _currentTarget = other.transform; // Set the current target
+            _currentTarget = other.transform;
             Debug.Log("Attached to circle");
         }
     }
