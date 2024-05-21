@@ -2,35 +2,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collectable_Placer : MonoBehaviour
+public class CollectablePlacer : MonoBehaviour
 {
-    [SerializeField] private GameObject Collectableprefab;
-    [SerializeField] private Transform circleCenter;
-    [SerializeField] private float numofCollectable;
-    [SerializeField] private float Radius;
-    void Start()
+    [SerializeField] private GameObject collectablePrefab; // The collectable prefab to instantiate
+    [SerializeField] private Transform[] circleCenters; // Array of transforms representing the centers of the circles
+    [SerializeField] private float[] radii; // Array of radii for each circle
+    [SerializeField] private int[] collectablesPerCircle; // Array of the number of collectables per circle
+
+    private void Start()
     {
-        PlaceCollectable();
+        PlaceCollectables();
     }
 
-
-    void PlaceCollectable()
+    private void PlaceCollectables()
     {
-        float anglestep = 360/numofCollectable;// angle between each collectable
-        for (int i = 0; i < numofCollectable; i++)
+        for (int i = 0; i < circleCenters.Length; i++)
         {
-            float angle = anglestep * i;// Calculate current angle for the collectable  
-            Vector3 position = CalculatePosition(angle);// Calculates position on the circle 
-            Instantiate(Collectableprefab, position, Quaternion.identity);
-            Debug.Log("create Collectables");
+            float angleStep = 360f / collectablesPerCircle[i];
+            for (int j = 0; j < collectablesPerCircle[i]; j++)
+            {
+                float angle = j * angleStep; // Calculate the current angle for this collectable
+                Vector3 position = CalculatePositionOnCircle(circleCenters[i].position, radii[i], angle); // Calculate the position on the circle at this angle
+                Instantiate(collectablePrefab, position, Quaternion.identity); // Instantiate the collectable at this position
+            }
         }
     }
-    
-    private Vector3 CalculatePosition(float angle)
+
+    private Vector3 CalculatePositionOnCircle(Vector3 center, float radius, float angle)
     {
-        float radian = angle * Mathf.Deg2Rad;// Converts degree to radian
-        float x = circleCenter.position.x + Radius * Mathf.Cos(radian);// clculates x cordinates    
-        float y = circleCenter.position.y + Radius * Mathf.Sin(radian);// Calculates y cordinates
-        return new Vector3(x, y, circleCenter.position.z);
+        float radians = angle * Mathf.Deg2Rad; // Convert the angle from degrees to radians
+        float x = center.x + radius * Mathf.Cos(radians); // Calculate the x-coordinate
+        float y = center.y + radius * Mathf.Sin(radians); // Calculate the y-coordinate
+        return new Vector3(x, y, center.z); // Return the position as a Vector3
     }
 }
