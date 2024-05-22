@@ -1,0 +1,5438 @@
+fileFormatVersion: 2
+guid: 88537502fbf65a348b3011a44fbc65d1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Menu_ui_pink_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2318
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ee4759e29de324bb5e32672af22593
+      internalID: 1401641010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2386
+        width: 132
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d257b5311848d64bbd969ca2af3f32c
+      internalID: 1104160832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_2
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2318
+        width: 157
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467a441b15d7cb1419e4d6f9516c1960
+      internalID: -1311398587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_3
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 2318
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b740c42c2532a9468b932b7a973f5dd
+      internalID: -67327255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_4
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2318
+        width: 133
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c7dce2bfe1a7c46a6a3a05475ccda9
+      internalID: -1582123553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_5
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 2318
+        width: 157
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2ba60324957a9499b60689d10c1ab4
+      internalID: 310746101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2318
+        width: 132
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52449b99e9ebe1b4ebaa61a76d20ee5b
+      internalID: 260359999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_7
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 2165
+        width: 68
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fdf23d510e70f41a62cdc19d27777e
+      internalID: -2047539359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_8
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 2294
+        width: 196
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2fb3dd98d82464a88a1667ca909a69
+      internalID: 939890358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_9
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 2294
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ffa9d04e067a34e8404df24a83ba3f
+      internalID: 833545784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_10
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 2294
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8540058ca289d0f49a24d66bad9e5458
+      internalID: 621330941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_11
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 2294
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55030fd06ed12914ca0202fde0ff731f
+      internalID: 403524149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_12
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 2294
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a51220f0ae5f8c48b0d943c19d2733a
+      internalID: 1977639411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_13
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 2294
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fd8efa4b434a448984fc3b50063cfe
+      internalID: 1227044437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_14
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 2294
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c4b5249396f4044b3c8cddff91ed7f
+      internalID: -275216649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_15
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2294
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea92ea130f86c2744acf38c724275330
+      internalID: 1467711616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_16
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 2294
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b57c7fdb57b2e04ea86a1550887a8ec
+      internalID: 145665987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_17
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 2294
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0ed8e9080d84a4fbc70f27d9c1a129
+      internalID: -1079531084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_18
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 2294
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e375731aff3da488ece05ca73f32b8
+      internalID: 518319987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_19
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 2294
+        width: 197
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58517c2946947d54bbee4868aea5d8c5
+      internalID: 331116024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_20
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 2165
+        width: 68
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863b4b394866f79449da4b9fe37eb099
+      internalID: -1413775850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2182
+        width: 156
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784aeda3e358fc443964feffb7d46f61
+      internalID: -958221583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_22
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2257
+        width: 132
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4a37c00bd26af40ad1fcba949a27ff
+      internalID: -1508297258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_23
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2182
+        width: 157
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f316b763a644a4419ff7849b6eede10
+      internalID: -1981087107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_24
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 2182
+        width: 156
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f6c88d7e26c2d45af446bb57314b48
+      internalID: -1442686845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_25
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2182
+        width: 133
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c114398920e7e94438e43a16e0b7ecb5
+      internalID: -1655462497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_26
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 2182
+        width: 157
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1fc106da7e4ec4da60e1d2c0417198
+      internalID: 2050690963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_27
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2182
+        width: 132
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca993ccffb0cc048ac9d5572b23b025
+      internalID: -2029091960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_28
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 2165
+        width: 196
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73617e0de71e4e42819d335edac9fc1
+      internalID: 1825500151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_29
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 2165
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60276d8d69210244a8d743f9bd615e14
+      internalID: -456767471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_30
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 2165
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb61d005d23f2c47a3b8881cfa06675
+      internalID: -1616208816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_31
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 2165
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88aedbf58ebaca248a38ffe3444bfdea
+      internalID: -224075572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_32
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 2165
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a2081db05dba54eb4f52803465e3c6
+      internalID: 1272222692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_33
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 2165
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460abdbd48015bc43b4f307ecacd389f
+      internalID: 10735275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_34
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 2165
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faba005bb472be43a8f4aa6e1fb3503
+      internalID: 1443371007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_35
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2165
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d3401683991bb49a335f8a74589f22
+      internalID: -483376423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_36
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 2165
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7908c1fb95e7a1843b841c68eba25e6e
+      internalID: -736252645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_37
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 2165
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80951ea92ce6ffb488ea004e8fb128f0
+      internalID: -1136025894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_38
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 2165
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec4772c3f12c3c4eaf629c8e5370d12
+      internalID: -1671179598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_39
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 2165
+        width: 197
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0798d28af5ea4fa46a471d9c3c418f4a
+      internalID: 1710533890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_40
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2062
+        width: 156
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821b7a3a67616a54a977fd1946335854
+      internalID: 943879848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_41
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2130
+        width: 132
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cbfe312e04c194a8bb5c4def3f7fdb
+      internalID: -1823437998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_42
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 2062
+        width: 157
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1db90883d9097e49b76922c00e432c2
+      internalID: -934704092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_43
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 2062
+        width: 156
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbad6056a3554e64caebbae2f19dae58
+      internalID: -443712656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_44
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 2054
+        width: 133
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ddb6a25e0e78a4ea3baa6394456bda
+      internalID: 887824070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_45
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 2062
+        width: 157
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9149808dee8855245a1ffc0bcdac165e
+      internalID: -910495138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_46
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2054
+        width: 132
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c99f32fdfa700745aa30bcbfa518426
+      internalID: 268927738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_47
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1909
+        width: 68
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8affc4140b18e4daec445b96e0f482
+      internalID: -245076734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_48
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 2038
+        width: 196
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dc90fd9c6313d408c15273df95fa05
+      internalID: 1366532641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_49
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 2054
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7eda9aeed39cb46a5b67c0ee337972
+      internalID: -1621253902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_50
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 2038
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dad0ffaa10138c488ab3adf6c52bcce
+      internalID: 1417657996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_51
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 2038
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d73cbda0c3f8d4aaec3b930d32082c
+      internalID: 2009821492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_52
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 2038
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6849fa03ad04f498a1ca410dedd8bb
+      internalID: 1265281447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_53
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 2038
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b404d4733bb8c4e85cb86eb92b69bc
+      internalID: 396589682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_54
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 2038
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf594dd7c98935479a0814bb9600ef7
+      internalID: 1046173010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_55
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 2038
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efaa97645e40fd42a8048d100061315
+      internalID: 1125294582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_56
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 2038
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c4b06005549d04b90cb92b3ea0ae1f
+      internalID: -23035072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_57
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 2038
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7d49eb263fc144aa097c39cfed3b57
+      internalID: 1804736522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_58
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 2054
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7681133ab47d06e47b53116cfd26a9bc
+      internalID: -1279394684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_59
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 2038
+        width: 197
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1bf593342506e438d67e2e0cb2a8ff
+      internalID: -1399536431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_60
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 1909
+        width: 68
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c09923acd35d84bb0bf9d7d044cee2
+      internalID: -1625738757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_61
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1935
+        width: 156
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d99650709c5d444dafa51ef19233e66
+      internalID: -1152237392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_62
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1997
+        width: 132
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bad28b0ad1b28b4692e834b08ff90fd
+      internalID: 669787164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_63
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1935
+        width: 157
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cce693727d5b4488f0fa7e1bdfd949
+      internalID: 1723706834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_64
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1935
+        width: 156
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d4a9634fc3bca45b2f6ee4d50816f6
+      internalID: -1121670848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_65
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1918
+        width: 133
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d273c375f8de9843bdc4d1117f9efbd
+      internalID: -1506589155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_66
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1935
+        width: 157
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ed8326788031b4e94c019275597333
+      internalID: 2042170986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_67
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 1909
+        width: 197
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17ef15dc82281e4cb52ae10331a9a59
+      internalID: -1273274052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_68
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1909
+        width: 324
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38d9912ec774ea44834e587e72bd278
+      internalID: 215836231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_69
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1909
+        width: 325
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e8b81aa22b3f34e9cd665ced20a0c7
+      internalID: 1283367060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_70
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 1909
+        width: 197
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0af3b329f0a7fd489c3de208d3a537f
+      internalID: -1472641885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_71
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1918
+        width: 132
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af92fd3e5d4f22642ab908b21a425230
+      internalID: 1251541604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_72
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1909
+        width: 196
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49054e34f780cf546adb381407b7bb64
+      internalID: -1923936459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_73
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 1909
+        width: 197
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7eb9de53c8e5f41b7fba722d2b68fa
+      internalID: 1543699506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_74
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1802
+        width: 165
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b94925a3286774ba37234ff1a953f4
+      internalID: 1483406910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_75
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1874
+        width: 132
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01109d48b8b545e4e882e61d6774d170
+      internalID: -2096973653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_76
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1802
+        width: 163
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cd792fbdaf73a439fe4ff831da7b55
+      internalID: -1664094612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_77
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1802
+        width: 164
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b22548661c7aa14aa6eb0aaa1f894f6
+      internalID: 1937329435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_78
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1785
+        width: 133
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de354523f1f0e746890bc87820d510a
+      internalID: 968837858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_79
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1802
+        width: 164
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474696ed710465d4ea54bc819694bfdb
+      internalID: -2130505524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_80
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1782
+        width: 324
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca023ef0b4361f4a9a18cbcb2092493
+      internalID: 1544254139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_81
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1782
+        width: 325
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e8aaff93cf444428651e5b07a1b292
+      internalID: -528593163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_82
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1785
+        width: 132
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cb94e4554696b4996d8ea43c9c9c2e
+      internalID: -1618518083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_83
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1654
+        width: 68
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1aa6bf18e20004ba7698ebe281990f
+      internalID: 1714672356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_84
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1654
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eb243e02754734e986a555f30c373a
+      internalID: -1218799792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_85
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1782
+        width: 200
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68d02c25f89cdc408b9c9d303f6a641
+      internalID: 2047026463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_86
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 1782
+        width: 201
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a8231892dc12244960b86f58c79333
+      internalID: -826077393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_87
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 1654
+        width: 197
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af64e75f6de3614098a7b808c260de2
+      internalID: -546516943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_88
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 1654
+        width: 68
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca5a7559a8107d4fa439f2d1b90712a
+      internalID: 1108434289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_89
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1674
+        width: 165
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d224536627423d4b85060ddbaf6128a
+      internalID: -265164006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_90
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1747
+        width: 132
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3415f6cb337057459d5bf5d1fe3c30d
+      internalID: -508389491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_91
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1674
+        width: 163
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21574ce98a792d34f954bb179decc7c6
+      internalID: 693632856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_92
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1674
+        width: 164
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38251fe714afb4447afae40a4740a128
+      internalID: 2087702017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_93
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1658
+        width: 133
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df91643dd53a4bd4c84e4c67ee30cf86
+      internalID: -1862748490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_94
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1674
+        width: 164
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf75bfbd421c6c4e81b96e3439a3bf9
+      internalID: 325850572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_95
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1658
+        width: 132
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2375e9219ab359f4081e2bec949fef0c
+      internalID: 459979218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_96
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1654
+        width: 197
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bde90200e393140a28a1bf3fb69079
+      internalID: 694664472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_97
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1654
+        width: 196
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff8c6ddd369bd542b330bc40764ecf8
+      internalID: -1546795103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_98
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 1654
+        width: 196
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b197fdff529624185f596b2f0cb5c6
+      internalID: 1312576132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_99
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1654
+        width: 198
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbec898bb9bd9f428debceb61bd3f08
+      internalID: 865291696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_100
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 1654
+        width: 197
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda67f88bf510d64d917d413db1ad434
+      internalID: -66668600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_101
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 1654
+        width: 195
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ee3db8b3f10314c9b970a56f1af086
+      internalID: 822555808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_102
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1549
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3a8f3452ccf4245b82de6454dc00d5
+      internalID: -1762630520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_103
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1618
+        width: 132
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165dd3b663099f6429b5c03f665cf93b
+      internalID: -1227094833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_104
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1549
+        width: 157
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61d463f6628ba1468c3146312f1d515
+      internalID: -1087594506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_105
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1549
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e953a5870b85a714894605a0e2a46067
+      internalID: -1120149696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_106
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1549
+        width: 132
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32de79c33dd5bc44d8c835e4c7c14244
+      internalID: 1804490889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_107
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1549
+        width: 157
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd59355e0fc71ac47b6fa5d5569979b3
+      internalID: -261015723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_108
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1525
+        width: 197
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e305d670a1505b04a907eab5541d56f8
+      internalID: 1674797019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_109
+      rect:
+        serializedVersion: 2
+        x: 3454
+        y: 1525
+        width: 196
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96926916cdf32ac48bdf640a947fd2c0
+      internalID: -1670076384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_110
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1549
+        width: 132
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10739507851173f41862cf9d733246fb
+      internalID: -1186266969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_111
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1525
+        width: 328
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd89ac2d8899dad4c918c649d248edf8
+      internalID: -573134070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_112
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1525
+        width: 324
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3c371134ea7844eb9e9bec6f8694da
+      internalID: 722384789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_113
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1525
+        width: 325
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf7cf677e9b76b409192a1280af3f1f
+      internalID: 446060720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_114
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 1525
+        width: 330
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a2a2f80b943104c927cc742c907ddb
+      internalID: 426332528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_115
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1422
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e796337a2ae9e046a9a947c8f8f7c2a
+      internalID: -684178234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_116
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1490
+        width: 132
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9912637f763edfe4eab5b3b80caef29a
+      internalID: -1178151996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_117
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1422
+        width: 157
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ef3766a929ff74598c957baeba58af
+      internalID: -452998207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_118
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1422
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7210268483425d4c8a90ccd2f73544d
+      internalID: 1503960617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_119
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1422
+        width: 133
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3042cd8ac475745bbf1c4028caeddd
+      internalID: -893713550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_120
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1422
+        width: 157
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fdb57ba01c4c845a28c6aa60a8e1f3
+      internalID: 1666432856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_121
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1422
+        width: 132
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79c851cca6f98449b1adf7f56128e8f
+      internalID: 410760928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_122
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1293
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf76d9fe2f10c14e9daf725992a9091
+      internalID: -1757410797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_123
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1361
+        width: 132
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e6194bf83f69f4a9c3f8a0c3ec60bf
+      internalID: 1133704276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_124
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1293
+        width: 157
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec10e13df23f014ea348c303c8cdea8
+      internalID: 2089370167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_125
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1293
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd00dfd8dc5585e4c8be66ffd0f57c63
+      internalID: -2021703355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_126
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1278
+        width: 133
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1f57a0f67aa1e4d9fdf601afcc4fa4
+      internalID: -1579691820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_127
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1293
+        width: 157
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b920dd1d1885beb4285849a6694a31af
+      internalID: 1205710434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_128
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1306
+        width: 197
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696ba7e917ded49499ec691af412e2f5
+      internalID: 1219378621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_129
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 1326
+        width: 328
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c44b25136c33854c857f3c634ae1c38
+      internalID: 434981388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_130
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1326
+        width: 324
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2f961d52b5995469bf36815db9d2e8
+      internalID: -1746902909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_131
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1326
+        width: 325
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b8c0fffe5a7e24784aa4d34b459f5f
+      internalID: -2100827817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_132
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 1326
+        width: 330
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a941f7617a792644f8db4b1cda64066a
+      internalID: 1844624971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_133
+      rect:
+        serializedVersion: 2
+        x: 3454
+        y: 1306
+        width: 196
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1280cc78abd9249b7e7e5ae6d762dd
+      internalID: -1915704363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_134
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1278
+        width: 132
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896a398a4de85d7478e8d202c90d26d8
+      internalID: 1250730403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_135
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1166
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8efadcf690ef54e8bc8036ad60c569
+      internalID: 845188724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_136
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1234
+        width: 132
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31990cec75a528439a75009e60d889f
+      internalID: -148519793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_137
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1166
+        width: 157
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7a37bf2f4e4df41900783bb60b5f43
+      internalID: 303618445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_138
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1166
+        width: 156
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d34d1337dd711340bbc4220c340a183
+      internalID: 29276137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_139
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1166
+        width: 133
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a897355e47fd94cbb8224881e6cb46
+      internalID: 1576925047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_140
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1166
+        width: 157
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed806b937546fa478fd15b13b00db1b
+      internalID: 216836404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_141
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1078
+        width: 68
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362e0c79632cd604db2a1293089d8f96
+      internalID: -188150976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_142
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1078
+        width: 196
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda1dfffc921ca54da74bca45e1dd544
+      internalID: 393842652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_143
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1206
+        width: 197
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a856e49e5a54c04893cc9f524fbdb9e
+      internalID: 400567946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_144
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1183
+        width: 196
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080cd3f7e20e6a64f9ad05ef60ae07e0
+      internalID: 1667085363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_145
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 1206
+        width: 196
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e09bd600931874db1ccae74446b49c
+      internalID: -696301307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_146
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1206
+        width: 198
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a3d69585ff4942b58a6e7c8962fd7
+      internalID: -62165547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_147
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 1183
+        width: 197
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4cb43ebc87e774b8a2ce8ce4161ee8
+      internalID: -693218137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_148
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 1206
+        width: 195
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e588b91d84e81b4eaa31501766fa0ba
+      internalID: -2004600782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_149
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 1078
+        width: 197
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17b2a7a7dbc9eb4b9afcbc589cbd524
+      internalID: 1070723515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_150
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 1078
+        width: 68
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01ac97575b63254c8654b084d8eba38
+      internalID: 1769002416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_151
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1166
+        width: 132
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ecb2fc0170fd44093d4846774f7b0f
+      internalID: 945926766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_152
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1066
+        width: 200
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c81e8b2e02b58469ddf621319a1f66
+      internalID: -1121179145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_153
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1038
+        width: 324
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fa5af5428b55245bd4f2bf95973edd
+      internalID: -1785954933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_154
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 1038
+        width: 325
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1e51f67a78be6488d02f445decc30e
+      internalID: 648541287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_155
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 1066
+        width: 201
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b3886f784cbc741993cd4a853af455
+      internalID: 1375809592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_156
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 937
+        width: 133
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04955cb6802f8884897a82605fb53e95
+      internalID: 90809221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_157
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 934
+        width: 131
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e637586e6f4687e4f8267bdf7077f12a
+      internalID: -1105010652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_158
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 937
+        width: 133
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf2250de1d3d4743bbec65425c47e43
+      internalID: 453589919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_159
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 937
+        width: 133
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5b97ba8b512a54da2815776913549b
+      internalID: 1396333905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_160
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 937
+        width: 132
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8f1d8cccbd6c946807dfc61c7c5c55
+      internalID: -317098025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_161
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 821
+        width: 68
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff3ac563709c0640be9ca2bc8977246
+      internalID: -2040757786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_162
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 937
+        width: 196
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948312676ddca42458597f78ac470117
+      internalID: -1756388784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_163
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 923
+        width: 197
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ec70761861ab8479f451ef9b6b99f5
+      internalID: -769449371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_164
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 913
+        width: 324
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9daa995a120ea4a859897624b34b0d
+      internalID: -1127480464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_165
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 913
+        width: 325
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17eac2a0715e2c244a537b37c29b5e43
+      internalID: -1065063710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_166
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 923
+        width: 197
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e629d72b3eeebcd478e4c9fcc5287588
+      internalID: -999321566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_167
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 937
+        width: 197
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c32c1137fffad49a9423d276f2f02e
+      internalID: -52827579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_168
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 821
+        width: 68
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b38049d8a58b84a908dd2634ff64b7
+      internalID: -1508825405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_169
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 814
+        width: 133
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150241f9d5a627b4eade1079a8494c1d
+      internalID: -1392362724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_170
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 806
+        width: 131
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e6c2533480a244fa6475526ca42622
+      internalID: 1114124002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_171
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 821
+        width: 133
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4c0adf0f5dbed4ba7b680cc5872930
+      internalID: 930663734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_172
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 821
+        width: 133
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0717b770f9cb7c44eb46553473830270
+      internalID: -2112859634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_173
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 821
+        width: 132
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96579c9f36eb41546bea2daf86ef8da4
+      internalID: 808469888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_174
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 810
+        width: 196
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2240de55f3332164d89c6b83ccea7521
+      internalID: 1367260816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_175
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 821
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43600570970873b4e89f26c7edcac90a
+      internalID: -907535723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_176
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 821
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b532bb6a1d8ec8d4293f45a53c8d6a2f
+      internalID: 1282367831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_177
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 821
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950b296410d5d424982c9c55096a12bc
+      internalID: -912151927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_178
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 821
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8855bea8ea329e647bcd6e34e3f0f2dc
+      internalID: -1725970597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_179
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 821
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf8ffd70215b1845b95650ed59a1972
+      internalID: -1472123714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_180
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 821
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7792a45e4ee83042a038d270909c04a
+      internalID: -1415179832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_181
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 821
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a779413f1a7bb40855f7dd29c91140
+      internalID: -1009707488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_182
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 821
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cd54821e08c114985abf85cb08ee22
+      internalID: -872819028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_183
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 821
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b71d715a410d741be9cba62eb6b4ef
+      internalID: 1286548787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_184
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 821
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3021beeeb6a964698b1b3c5b5ba984
+      internalID: 1161382526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_185
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 810
+        width: 197
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64d35730f5d6d84b810710bf3ec2515
+      internalID: 466560478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_186
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 681
+        width: 133
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b53d709c3720943b7c9f4309133fcd
+      internalID: 2076344995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_187
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 681
+        width: 131
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141921b96c1c59548a304a5ac93e359d
+      internalID: -289894553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_188
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 681
+        width: 133
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09b17692865298428bd2c9903f4bbed
+      internalID: 1642930335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_189
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 681
+        width: 133
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb4446e0ee63f641b50206dfc359cc0
+      internalID: -1892420208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_190
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 681
+        width: 132
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e4eb73293323346aea7f3fe35ac160
+      internalID: 2073186102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_191
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 565
+        width: 68
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933f4cb3368424b458dd61e39406a450
+      internalID: 652320646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_192
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 694
+        width: 196
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29672cad4c81e84891442d1f72c2099
+      internalID: 1361956510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_193
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 694
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84894d1bc5c8c804aaac60805f78f585
+      internalID: -1254801021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_194
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 694
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ec267c97c4fa643872a8de4d0d8114
+      internalID: -2124891702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_195
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 694
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b1591e2baf0fb4482423994780cdfb
+      internalID: -1631831879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_196
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 694
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa910215609d09b47a9e401080787228
+      internalID: 296010310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_197
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 694
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105da11296a02db4cbd30adc9ad4c331
+      internalID: -1660379231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_198
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 694
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734fedea010ade5448576197cfb5122d
+      internalID: 2026516643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_199
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 694
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3caf0747a90db54dbf7c7460672c222
+      internalID: 426364956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_200
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 694
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5ddc1e15f2e674fbbfef3c8ed9f17a
+      internalID: 1559043514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_201
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 694
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4290e0c1b219e488e47374906d032b
+      internalID: -1698683871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_202
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 694
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada848ae6fbf34e48b1d8f7a827677c5
+      internalID: 211268116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_203
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 694
+        width: 197
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359ff1f1f3df45f46962395a278fad6a
+      internalID: 1483982612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_204
+      rect:
+        serializedVersion: 2
+        x: 3582
+        y: 565
+        width: 68
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a130befb454998a47a5454146de909cc
+      internalID: -1924338557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_205
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 550
+        width: 133
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5616886c4cd3d4ab3e76c87ee2854c
+      internalID: -632482818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_206
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 547
+        width: 131
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612e485f56781db4b95d4fc151b3db11
+      internalID: -1028791103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_207
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 547
+        width: 133
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bcf1ef88d474e4ea66a7860ea11a6a
+      internalID: 1618593383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_208
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 565
+        width: 133
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f37616f35067d5408d57f30796063b2
+      internalID: 947920534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_209
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 558
+        width: 132
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af83c602f04aa704d9f782f396f75aa8
+      internalID: 1334606045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_210
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 554
+        width: 196
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48234fa963d9ed4ea1cf23aa23ddcff
+      internalID: 231660650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_211
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 561
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7531a6602d680642888bcd52ab570a3
+      internalID: -1858750230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_212
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 565
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa16fdb773fe79846ac26c8a84f6c62c
+      internalID: -844295549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_213
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 565
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b598994c1c737498b3c48961b1a540
+      internalID: 1548597382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_214
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 565
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8d7730a5a4d50449b4c7aafd09e179
+      internalID: -229510855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_215
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 565
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32f82c75e96d904c9dce4977445c71d
+      internalID: -2104535337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_216
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 565
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32948fb814c93014ebee94a4b35862b5
+      internalID: 1577820939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_217
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 565
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac6320c35d0a494db141fd5dccf399c
+      internalID: 811122212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_218
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 565
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a371b916429444d8ae80ed43114e0f
+      internalID: 1935662048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_219
+      rect:
+        serializedVersion: 2
+        x: 3069
+        y: 565
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed574a2b8c82c54d8142c41365bdc54
+      internalID: -2067976441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_220
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 561
+        width: 72
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abfda894d9923f4da68f157858bddf4
+      internalID: 420642727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_221
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 554
+        width: 197
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c1214cedfafb24383e6955e5b10d8e
+      internalID: 1211790604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_222
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 246
+        width: 24
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aada5f2878995447a93eca992e28f14
+      internalID: 84497235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_223
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 246
+        width: 23
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950f18231b55f0d42bc1576ce03090a2
+      internalID: 489117072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_224
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 246
+        width: 37
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed59f14915ec904cbb7cd1c157e3cc9
+      internalID: -1726487265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_225
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 246
+        width: 37
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f7f2179c82bc442a447886179eb70c
+      internalID: 281262623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_226
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 246
+        width: 16
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0271897b0b03d094a89f0c8362ec9d2a
+      internalID: -799679820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_227
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 246
+        width: 16
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3db01d0130c78449dec0d1450962d9
+      internalID: 1177954751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_228
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 246
+        width: 17
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29109d1aa418584c8957913026e2e32
+      internalID: 1968142639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_229
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 246
+        width: 17
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b03e9b03f32ae43911096d07c9cb04
+      internalID: 1292137317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_230
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 246
+        width: 17
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c015d196a873e443a1f9599fc67ef33
+      internalID: -1618497575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_231
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 246
+        width: 15
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5df548c40f6da34da4a01efb73d2d7f
+      internalID: -1206010128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_232
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 246
+        width: 31
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0668f06cc8cefdd4eae8f09d9eb2f38d
+      internalID: -1628186813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_233
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 246
+        width: 33
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0941d57c1c0ed1d4281373acb70b805e
+      internalID: -518037208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_234
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 246
+        width: 36
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1ba2edea8d19d43baa0ab616e5ce85
+      internalID: 602243305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_235
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 246
+        width: 37
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3739e4d1a39308a45897989965c84255
+      internalID: -1887709878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_236
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 246
+        width: 37
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c754dbc64bdcf34c8eb337e16fc8ad8
+      internalID: 1993111888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_237
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 246
+        width: 36
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99ada615209b3a48965572fe8e185f4
+      internalID: -1181089443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_238
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 246
+        width: 16
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a63db6d44128904d8f3b2d09f5c27e0
+      internalID: 96589756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_239
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 246
+        width: 16
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db897f83fbf84b54499efa9dc78aa867
+      internalID: -1327696434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_240
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 246
+        width: 23
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f89b61eaceb7764caf128b2b299cf50
+      internalID: -2134129158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_ui_pink_241
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 246
+        width: 24
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fd5bcaa3c5a2e41a2233e0b85ebab4
+      internalID: 537159361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Menu_ui_pink_0: 1401641010
+      Menu_ui_pink_1: 1104160832
+      Menu_ui_pink_10: 621330941
+      Menu_ui_pink_100: -66668600
+      Menu_ui_pink_101: 822555808
+      Menu_ui_pink_102: -1762630520
+      Menu_ui_pink_103: -1227094833
+      Menu_ui_pink_104: -1087594506
+      Menu_ui_pink_105: -1120149696
+      Menu_ui_pink_106: 1804490889
+      Menu_ui_pink_107: -261015723
+      Menu_ui_pink_108: 1674797019
+      Menu_ui_pink_109: -1670076384
+      Menu_ui_pink_11: 403524149
+      Menu_ui_pink_110: -1186266969
+      Menu_ui_pink_111: -573134070
+      Menu_ui_pink_112: 722384789
+      Menu_ui_pink_113: 446060720
+      Menu_ui_pink_114: 426332528
+      Menu_ui_pink_115: -684178234
+      Menu_ui_pink_116: -1178151996
+      Menu_ui_pink_117: -452998207
+      Menu_ui_pink_118: 1503960617
+      Menu_ui_pink_119: -893713550
+      Menu_ui_pink_12: 1977639411
+      Menu_ui_pink_120: 1666432856
+      Menu_ui_pink_121: 410760928
+      Menu_ui_pink_122: -1757410797
+      Menu_ui_pink_123: 1133704276
+      Menu_ui_pink_124: 2089370167
+      Menu_ui_pink_125: -2021703355
+      Menu_ui_pink_126: -1579691820
+      Menu_ui_pink_127: 1205710434
+      Menu_ui_pink_128: 1219378621
+      Menu_ui_pink_129: 434981388
+      Menu_ui_pink_13: 1227044437
+      Menu_ui_pink_130: -1746902909
+      Menu_ui_pink_131: -2100827817
+      Menu_ui_pink_132: 1844624971
+      Menu_ui_pink_133: -1915704363
+      Menu_ui_pink_134: 1250730403
+      Menu_ui_pink_135: 845188724
+      Menu_ui_pink_136: -148519793
+      Menu_ui_pink_137: 303618445
+      Menu_ui_pink_138: 29276137
+      Menu_ui_pink_139: 1576925047
+      Menu_ui_pink_14: -275216649
+      Menu_ui_pink_140: 216836404
+      Menu_ui_pink_141: -188150976
+      Menu_ui_pink_142: 393842652
+      Menu_ui_pink_143: 400567946
+      Menu_ui_pink_144: 1667085363
+      Menu_ui_pink_145: -696301307
+      Menu_ui_pink_146: -62165547
+      Menu_ui_pink_147: -693218137
+      Menu_ui_pink_148: -2004600782
+      Menu_ui_pink_149: 1070723515
+      Menu_ui_pink_15: 1467711616
+      Menu_ui_pink_150: 1769002416
+      Menu_ui_pink_151: 945926766
+      Menu_ui_pink_152: -1121179145
+      Menu_ui_pink_153: -1785954933
+      Menu_ui_pink_154: 648541287
+      Menu_ui_pink_155: 1375809592
+      Menu_ui_pink_156: 90809221
+      Menu_ui_pink_157: -1105010652
+      Menu_ui_pink_158: 453589919
+      Menu_ui_pink_159: 1396333905
+      Menu_ui_pink_16: 145665987
+      Menu_ui_pink_160: -317098025
+      Menu_ui_pink_161: -2040757786
+      Menu_ui_pink_162: -1756388784
+      Menu_ui_pink_163: -769449371
+      Menu_ui_pink_164: -1127480464
+      Menu_ui_pink_165: -1065063710
+      Menu_ui_pink_166: -999321566
+      Menu_ui_pink_167: -52827579
+      Menu_ui_pink_168: -1508825405
+      Menu_ui_pink_169: -1392362724
+      Menu_ui_pink_17: -1079531084
+      Menu_ui_pink_170: 1114124002
+      Menu_ui_pink_171: 930663734
+      Menu_ui_pink_172: -2112859634
+      Menu_ui_pink_173: 808469888
+      Menu_ui_pink_174: 1367260816
+      Menu_ui_pink_175: -907535723
+      Menu_ui_pink_176: 1282367831
+      Menu_ui_pink_177: -912151927
+      Menu_ui_pink_178: -1725970597
+      Menu_ui_pink_179: -1472123714
+      Menu_ui_pink_18: 518319987
+      Menu_ui_pink_180: -1415179832
+      Menu_ui_pink_181: -1009707488
+      Menu_ui_pink_182: -872819028
+      Menu_ui_pink_183: 1286548787
+      Menu_ui_pink_184: 1161382526
+      Menu_ui_pink_185: 466560478
+      Menu_ui_pink_186: 2076344995
+      Menu_ui_pink_187: -289894553
+      Menu_ui_pink_188: 1642930335
+      Menu_ui_pink_189: -1892420208
+      Menu_ui_pink_19: 331116024
+      Menu_ui_pink_190: 2073186102
+      Menu_ui_pink_191: 652320646
+      Menu_ui_pink_192: 1361956510
+      Menu_ui_pink_193: -1254801021
+      Menu_ui_pink_194: -2124891702
+      Menu_ui_pink_195: -1631831879
+      Menu_ui_pink_196: 296010310
+      Menu_ui_pink_197: -1660379231
+      Menu_ui_pink_198: 2026516643
+      Menu_ui_pink_199: 426364956
+      Menu_ui_pink_2: -1311398587
+      Menu_ui_pink_20: -1413775850
+      Menu_ui_pink_200: 1559043514
+      Menu_ui_pink_201: -1698683871
+      Menu_ui_pink_202: 211268116
+      Menu_ui_pink_203: 1483982612
+      Menu_ui_pink_204: -1924338557
+      Menu_ui_pink_205: -632482818
+      Menu_ui_pink_206: -1028791103
+      Menu_ui_pink_207: 1618593383
+      Menu_ui_pink_208: 947920534
+      Menu_ui_pink_209: 1334606045
+      Menu_ui_pink_21: -958221583
+      Menu_ui_pink_210: 231660650
+      Menu_ui_pink_211: -1858750230
+      Menu_ui_pink_212: -844295549
+      Menu_ui_pink_213: 1548597382
+      Menu_ui_pink_214: -229510855
+      Menu_ui_pink_215: -2104535337
+      Menu_ui_pink_216: 1577820939
+      Menu_ui_pink_217: 811122212
+      Menu_ui_pink_218: 1935662048
+      Menu_ui_pink_219: -2067976441
+      Menu_ui_pink_22: -1508297258
+      Menu_ui_pink_220: 420642727
+      Menu_ui_pink_221: 1211790604
+      Menu_ui_pink_222: 84497235
+      Menu_ui_pink_223: 489117072
+      Menu_ui_pink_224: -1726487265
+      Menu_ui_pink_225: 281262623
+      Menu_ui_pink_226: -799679820
+      Menu_ui_pink_227: 1177954751
+      Menu_ui_pink_228: 1968142639
+      Menu_ui_pink_229: 1292137317
+      Menu_ui_pink_23: -1981087107
+      Menu_ui_pink_230: -1618497575
+      Menu_ui_pink_231: -1206010128
+      Menu_ui_pink_232: -1628186813
+      Menu_ui_pink_233: -518037208
+      Menu_ui_pink_234: 602243305
+      Menu_ui_pink_235: -1887709878
+      Menu_ui_pink_236: 1993111888
+      Menu_ui_pink_237: -1181089443
+      Menu_ui_pink_238: 96589756
+      Menu_ui_pink_239: -1327696434
+      Menu_ui_pink_24: -1442686845
+      Menu_ui_pink_240: -2134129158
+      Menu_ui_pink_241: 537159361
+      Menu_ui_pink_25: -1655462497
+      Menu_ui_pink_26: 2050690963
+      Menu_ui_pink_27: -2029091960
+      Menu_ui_pink_28: 1825500151
+      Menu_ui_pink_29: -456767471
+      Menu_ui_pink_3: -67327255
+      Menu_ui_pink_30: -1616208816
+      Menu_ui_pink_31: -224075572
+      Menu_ui_pink_32: 1272222692
+      Menu_ui_pink_33: 10735275
+      Menu_ui_pink_34: 1443371007
+      Menu_ui_pink_35: -483376423
+      Menu_ui_pink_36: -736252645
+      Menu_ui_pink_37: -1136025894
+      Menu_ui_pink_38: -1671179598
+      Menu_ui_pink_39: 1710533890
+      Menu_ui_pink_4: -1582123553
+      Menu_ui_pink_40: 943879848
+      Menu_ui_pink_41: -1823437998
+      Menu_ui_pink_42: -934704092
+      Menu_ui_pink_43: -443712656
+      Menu_ui_pink_44: 887824070
+      Menu_ui_pink_45: -910495138
+      Menu_ui_pink_46: 268927738
+      Menu_ui_pink_47: -245076734
+      Menu_ui_pink_48: 1366532641
+      Menu_ui_pink_49: -1621253902
+      Menu_ui_pink_5: 310746101
+      Menu_ui_pink_50: 1417657996
+      Menu_ui_pink_51: 2009821492
+      Menu_ui_pink_52: 1265281447
+      Menu_ui_pink_53: 396589682
+      Menu_ui_pink_54: 1046173010
+      Menu_ui_pink_55: 1125294582
+      Menu_ui_pink_56: -23035072
+      Menu_ui_pink_57: 1804736522
+      Menu_ui_pink_58: -1279394684
+      Menu_ui_pink_59: -1399536431
+      Menu_ui_pink_6: 260359999
+      Menu_ui_pink_60: -1625738757
+      Menu_ui_pink_61: -1152237392
+      Menu_ui_pink_62: 669787164
+      Menu_ui_pink_63: 1723706834
+      Menu_ui_pink_64: -1121670848
+      Menu_ui_pink_65: -1506589155
+      Menu_ui_pink_66: 2042170986
+      Menu_ui_pink_67: -1273274052
+      Menu_ui_pink_68: 215836231
+      Menu_ui_pink_69: 1283367060
+      Menu_ui_pink_7: -2047539359
+      Menu_ui_pink_70: -1472641885
+      Menu_ui_pink_71: 1251541604
+      Menu_ui_pink_72: -1923936459
+      Menu_ui_pink_73: 1543699506
+      Menu_ui_pink_74: 1483406910
+      Menu_ui_pink_75: -2096973653
+      Menu_ui_pink_76: -1664094612
+      Menu_ui_pink_77: 1937329435
+      Menu_ui_pink_78: 968837858
+      Menu_ui_pink_79: -2130505524
+      Menu_ui_pink_8: 939890358
+      Menu_ui_pink_80: 1544254139
+      Menu_ui_pink_81: -528593163
+      Menu_ui_pink_82: -1618518083
+      Menu_ui_pink_83: 1714672356
+      Menu_ui_pink_84: -1218799792
+      Menu_ui_pink_85: 2047026463
+      Menu_ui_pink_86: -826077393
+      Menu_ui_pink_87: -546516943
+      Menu_ui_pink_88: 1108434289
+      Menu_ui_pink_89: -265164006
+      Menu_ui_pink_9: 833545784
+      Menu_ui_pink_90: -508389491
+      Menu_ui_pink_91: 693632856
+      Menu_ui_pink_92: 2087702017
+      Menu_ui_pink_93: -1862748490
+      Menu_ui_pink_94: 325850572
+      Menu_ui_pink_95: 459979218
+      Menu_ui_pink_96: 694664472
+      Menu_ui_pink_97: -1546795103
+      Menu_ui_pink_98: 1312576132
+      Menu_ui_pink_99: 865291696
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
