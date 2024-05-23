@@ -15,6 +15,7 @@ public class DestroyCollectable : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            AudioManager.Instance.PlayCoinSound();
             Debug.Log("Collision Picked Up");
             if (collectableCounter != null)
             {

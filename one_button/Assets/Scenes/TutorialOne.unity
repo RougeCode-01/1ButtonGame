@@ -377,6 +377,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BGMSFX
       objectReference: {fileID: 0}
+    - target: {fileID: 3388707477234582599, guid: 6c280bec4b0e13240bf1312277f18cf0, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 72faa06a527e3c24d875742d047c52a8, type: 3}
+    - target: {fileID: 3388707477234582599, guid: 6c280bec4b0e13240bf1312277f18cf0, type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c344c3e9a0464504b869efc33292e7a8, type: 3}
+    - target: {fileID: 3388707477234582599, guid: 6c280bec4b0e13240bf1312277f18cf0, type: 3}
+      propertyPath: landSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 374ade6cfdccbca4999d1e34259e83ed, type: 3}
+    - target: {fileID: 3388707477234582599, guid: 6c280bec4b0e13240bf1312277f18cf0, type: 3}
+      propertyPath: levelCompleteSound
+      value: 
+      objectReference: {fileID: 8300000, guid: be0124b4adfb8004caf8c1d841d534c2, type: 3}
     - target: {fileID: 7369886948233922703, guid: 6c280bec4b0e13240bf1312277f18cf0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
