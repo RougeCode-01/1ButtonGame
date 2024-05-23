@@ -9,16 +9,11 @@ public class Enemy_movement : MonoBehaviour
     [SerializeField] public float radius;
     [SerializeField] public float speed;
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("PlayerDestroyed");
-            Destroy(other.gameObject);
-        }
-    }
+    private RespawnPlayer respawnPlayer;
+    
     private void Start()
     {
+        respawnPlayer = FindObjectOfType<RespawnPlayer>();
         Vector3 direction = (transform.position - circleCenter.position).normalized;
         transform.position = circleCenter.position + direction * radius;
     }
@@ -34,5 +29,14 @@ public class Enemy_movement : MonoBehaviour
           float angleDiffrence = Vector3.SignedAngle(currentDirection, desiredPosition, Vector3.forward);*/
 
         transform.RotateAround(circleCenter.position, Vector3.forward, speed * Time.deltaTime);
+    }
+    
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            respawnPlayer.player.transform.position = respawnPlayer.startPosition;
+            //respawnPlayer.enemy.transform.position = respawnPlayer.enemyStartPosition;
+        }
     }
 }
