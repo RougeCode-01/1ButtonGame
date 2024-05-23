@@ -48,7 +48,7 @@ public class EnemyPlacer : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(other.gameObject);
+         
         }
     }
 }

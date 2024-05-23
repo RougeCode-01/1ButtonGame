@@ -3,10 +3,10 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     //This is very similar to BR audio management
-    public AudioClip coinSound;
-    public AudioClip jumpSound;
-    public AudioClip landSound;
-    public AudioClip levelCompleteSound;
+    private AudioClip coinSound;
+    private AudioClip jumpSound;
+    private AudioClip landSound;
+    private AudioClip levelCompleteSound;
 
     //Singleton pattern for easy access
     public static AudioManager Instance { get; private set; }
