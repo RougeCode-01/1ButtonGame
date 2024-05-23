@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Circle
   - audio
+  - TutorialText
   layers:
   - Default
   - TransparentFX
