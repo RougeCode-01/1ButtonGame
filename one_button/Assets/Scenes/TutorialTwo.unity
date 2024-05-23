@@ -623,6 +623,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1218590737382156030, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1218590737382156030, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1218590737382156030, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1218590737382156030, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -379
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936883193938296068, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
+      propertyPath: m_text
+      value: Collect the green circles to continue to the next level
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936883193938296068, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936883193938296068, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936883193938296068, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5320639484991637504, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
       propertyPath: m_Pivot.x
       value: 0

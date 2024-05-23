@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166c52d2722a1d44d8f03c38ee71bcac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinSound: {fileID: 0}
-  jumpSound: {fileID: 0}
-  landSound: {fileID: 0}
-  levelCompleteSound: {fileID: 0}
+  coinSound: {fileID: 8300000, guid: 72faa06a527e3c24d875742d047c52a8, type: 3}
+  jumpSound: {fileID: 8300000, guid: c344c3e9a0464504b869efc33292e7a8, type: 3}
+  landSound: {fileID: 8300000, guid: 374ade6cfdccbca4999d1e34259e83ed, type: 3}
+  levelCompleteSound: {fileID: 8300000, guid: be0124b4adfb8004caf8c1d841d534c2, type: 3}
