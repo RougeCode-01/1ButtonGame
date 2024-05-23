@@ -302,9 +302,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 490427001705497136, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
+      propertyPath: firstScene
+      value: Level3
+      objectReference: {fileID: 0}
     - target: {fileID: 944493637185073011, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699046422888911305, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5320639484991637504, guid: 7b998b0259a7a3e46b97570d5a69c921, type: 3}
       propertyPath: m_Pivot.x
