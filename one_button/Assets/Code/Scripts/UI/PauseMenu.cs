@@ -7,7 +7,7 @@ public class PauseMenu : MonoBehaviour
 {
     public bool gamePaused = false;
     public GameObject pauseMenu;
-    public string firstScene = "RotatingMechanism";
+    public string firstScene;
     public GameObject bgm;
     public bool soundPlaying = true;
     public GameObject soundOn;
