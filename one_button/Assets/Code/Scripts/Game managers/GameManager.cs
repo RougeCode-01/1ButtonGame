@@ -5,17 +5,17 @@ using UnityEngine.SceneManagement; // Add this line
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private int totalCollectibles; 
+    [SerializeField] private int totalCollectibles;
     [SerializeField] private int currentLevel = 1; // Set this to the current level number
     [SerializeField] private int loadDelay;
     private int _collectedCollectibles = 0;
     private bool levelcompletesfx = false;
-    
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -54,6 +54,6 @@ public class GameManager : MonoBehaviour
     // Call this method when a collectible is collected
     public void CollectibleCollected()
     {
-        _collectedCollectibles++;
+        _collectedCollectibles += 100;
     }
 }
