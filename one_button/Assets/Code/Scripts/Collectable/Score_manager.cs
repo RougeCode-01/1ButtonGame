@@ -21,7 +21,7 @@ public class Score_manager : MonoBehaviour
     }
     private void UpdateCollectableText()
     {
-        CollectableText.text = "Score " + collectablecount;
+        CollectableText.text = "Score " + collectablecount + "00";
     }
   
     

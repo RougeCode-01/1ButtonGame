@@ -54,6 +54,6 @@ public class GameManager : MonoBehaviour
     // Call this method when a collectible is collected
     public void CollectibleCollected()
     {
-        _collectedCollectibles += 100;
+        _collectedCollectibles ++;
     }
 }

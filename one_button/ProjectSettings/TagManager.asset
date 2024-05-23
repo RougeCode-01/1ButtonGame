@@ -8,6 +8,7 @@ TagManager:
   - audio
   - TutorialText
   - Collectible
+  - Enemy
   layers:
   - Default
   - TransparentFX

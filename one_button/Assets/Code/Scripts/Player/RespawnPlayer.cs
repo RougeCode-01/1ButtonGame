@@ -2,20 +2,25 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class RespawnPlayer : MonoBehaviour
 {
-    private Vector3 _startPosition;//Use to set the player start position
-    private GameObject player;//Refrence of the player
+    public Vector3 startPosition;
+    public Vector3 enemyStartPosition;
+    public GameObject player;
+    public GameObject enemy;
 
     private void Awake()
     {
-        player = GameObject.Find("Player(Dave)");//Find the player gameobject 
+        player = GameObject.Find("Player(Dave)");
+        //enemy = GameObject.FindWithTag("Enemy");
     }
 
     private void Start()
     {
-        _startPosition = player.transform.position; //set the start position to the players initial position
+        startPosition = player.transform.position;
+        //enemyStartPosition = enemy.transform.position;
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -23,8 +28,10 @@ public class RespawnPlayer : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Collided with player");
-            player.transform.position = _startPosition;//Set the players position back to the initial position
+            player.transform.position = startPosition;
             Debug.Log("Respawned player");
         }
     }
+    
+    
 }

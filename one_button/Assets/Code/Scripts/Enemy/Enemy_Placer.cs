@@ -44,12 +44,5 @@ public class EnemyPlacer : MonoBehaviour
         return new Vector3(x, y, center.z); // Return the position as a Vector3
 
     }
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Destroy(other.gameObject);
-        }
-    }
 }
 
