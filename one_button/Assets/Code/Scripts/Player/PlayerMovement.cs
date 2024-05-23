@@ -74,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
         if (Time.time < timer)
         {
             Jump();
+            AudioManager.Instance.PlayJumpSound();
         }
         isJumping = true;
     }
@@ -118,6 +119,7 @@ public class PlayerMovement : MonoBehaviour
         {
             _currentTarget = other.transform;
             Debug.Log("Attached to circle");
+            AudioManager.Instance.PlayLandSound();
         }
     }
 }

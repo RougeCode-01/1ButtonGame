@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayButton()
     {
-        SceneManager.LoadScene("RotatingMechanism");
+        SceneManager.LoadScene("TutorialOne");
     }
 
     public void QuitButton()
