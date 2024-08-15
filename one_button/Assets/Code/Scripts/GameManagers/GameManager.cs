@@ -9,7 +9,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int currentLevel = 1; // Set this to the current level number
     [SerializeField] private int loadDelay;
     private int _collectedCollectibles = 0;
+    private int GameOverscene = 6;
     private bool levelcompletesfx = false;
+   
 
 
     // Start is called before the first frame update
@@ -25,6 +27,10 @@ public class GameManager : MonoBehaviour
         if (_collectedCollectibles >= totalCollectibles)
         {
             StartCoroutine(LoadNextLevelAfterDelay(loadDelay));
+        }
+        if (HealthManager.Instance.Health <= 0)
+        {
+            GameOver(GameOverscene);
         }
     }
 
@@ -55,5 +61,9 @@ public class GameManager : MonoBehaviour
     public void CollectibleCollected()
     {
         _collectedCollectibles ++;
+    }
+    void GameOver(int LoadScene)
+    {
+        SceneManager.LoadScene(LoadScene);
     }
 }

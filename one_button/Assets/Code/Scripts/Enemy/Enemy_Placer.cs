@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class EnemyPlacer : MonoBehaviour
 {
-    [SerializeField] private GameObject enemyPrefab;
-    [SerializeField] private Transform[] circleCenters;
-    [SerializeField] private float[] radii;
-    [SerializeField] private float enemySpeed;
-    [SerializeField] private int[] numberOfEnemies; // Array specifying the number of enemies per circle
+    [SerializeField] public GameObject enemyPrefab;
+    [SerializeField] public Transform[] circleCenters;
+    [SerializeField] public float[] radii;
+    [SerializeField] public float enemySpeed;
+    [SerializeField] public int[] numberOfEnemies; // Array specifying the number of enemies per circle
 
     void Start()
     {

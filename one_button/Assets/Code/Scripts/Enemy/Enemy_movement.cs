@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Enemy_movement : MonoBehaviour
 {
-    [SerializeField] private Transform Player;
-    [SerializeField] public Transform circleCenter;
-    [SerializeField] public float radius;
-    [SerializeField] public float speed;
+     public Transform Player;
+     public  Transform circleCenter;
+     public float radius;
+     public float speed;
+    
 
     private RespawnPlayer respawnPlayer;
     
@@ -16,7 +17,9 @@ public class Enemy_movement : MonoBehaviour
         respawnPlayer = FindObjectOfType<RespawnPlayer>();
         Vector3 direction = (transform.position - circleCenter.position).normalized;
         transform.position = circleCenter.position + direction * radius;
-    }
+       
+
+         }
     private void Update()
     {
         RotateAroundCircle();
@@ -37,6 +40,8 @@ public class Enemy_movement : MonoBehaviour
         {
             respawnPlayer.player.transform.position = respawnPlayer.startPosition;
             //respawnPlayer.enemy.transform.position = respawnPlayer.enemyStartPosition;
+            //HealthManager.instance.Health--;
+            HealthManager.Instance.DecreaseHealth();
         }
     }
 }
