@@ -8,7 +8,9 @@ public class Enemy_movement : MonoBehaviour
      public  Transform circleCenter;
      public float radius;
      public float speed;
-    
+
+    [SerializeField] private float delay = 1f;
+    private bool respawn;
 
     private RespawnPlayer respawnPlayer;
     
@@ -36,12 +38,23 @@ public class Enemy_movement : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && respawn == false )
         {
-            respawnPlayer.player.transform.position = respawnPlayer.startPosition;
-            //respawnPlayer.enemy.transform.position = respawnPlayer.enemyStartPosition;
-            //HealthManager.instance.Health--;
-            HealthManager.Instance.DecreaseHealth();
+           
+                // Start the respawn process
+                StartCoroutine(Respawned());
+            
         }
+    }
+
+    IEnumerator Respawned()
+    {
+        Debug.Log("Coroutine started");
+        respawn = true;
+         respawnPlayer.player.transform.position = respawnPlayer.startPosition;// respwns the player when it collides with the enemy
+        HealthManager.Instance.DecreaseHealth();
+        yield return new WaitForSeconds(delay);
+        respawn = false;
+        Debug.Log("Coroutine Ended");
     }
 }
