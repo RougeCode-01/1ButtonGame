@@ -9,9 +9,9 @@ public class Enemy_movement : MonoBehaviour
      public float radius;
      public float speed;
 
-    [SerializeField] private float delay = 1f;
-    private bool respawn;
 
+
+    private bool respawn;
     private RespawnPlayer respawnPlayer;
     
     private void Start()

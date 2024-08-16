@@ -41,8 +41,7 @@ public class HealthManager : Singleton<HealthManager>
      }
       void OnSceneLoaded(Scene scene, LoadSceneMode sceneMode)
      {
-        //updateHealthUI();
-        Debug.Log("OnSceneLoaded");
+                Debug.Log("OnSceneLoaded");
      }
 
     private void Update()
@@ -72,6 +71,7 @@ public class HealthManager : Singleton<HealthManager>
     }
     public void IncreaseHealth(int add=1)
     {
+        Debug.Log("Health Increased");
         Health+= add;
         updateHealthUI();
     }

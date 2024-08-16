@@ -13,8 +13,10 @@ public class Health : MonoBehaviour, Icollectable
     }
     public  void Collect()
     {
-        HealthManager.Instance.IncreaseHealth();
+        Debug.Log("Heart dsadas");
         Destroy(gameObject);
+        HealthManager.Instance.IncreaseHealth();
         Debug.Log("Heart Destroyed");
+
     }
 }

@@ -677,6 +677,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1060034567325837197, guid: 04adef1e350f138419b955cde6598b4b, type: 3}
+      propertyPath: m_Radius
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060034567325837197, guid: 04adef1e350f138419b955cde6598b4b, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060034567325837197, guid: 04adef1e350f138419b955cde6598b4b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6450630816614745783, guid: 04adef1e350f138419b955cde6598b4b, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -921,7 +933,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4974171317917764152, guid: a56606f71aabb8d45b27d596b60b4d15, type: 3}
       propertyPath: m_Name
-      value: Health
+      value: Heart
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
