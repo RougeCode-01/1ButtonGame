@@ -51,7 +51,7 @@ public class Enemy_movement : MonoBehaviour
     {
         Debug.Log("Coroutine started");
         respawn = true;
-         respawnPlayer.player.transform.position = respawnPlayer.startPosition;// respwns the player when it collides with the enemy
+        respawnPlayer.player.transform.position = respawnPlayer.startPosition;// respwns the player when it collides with the enemy
         HealthManager.Instance.DecreaseHealth();
         yield return new WaitForSeconds(delay);
         respawn = false;
