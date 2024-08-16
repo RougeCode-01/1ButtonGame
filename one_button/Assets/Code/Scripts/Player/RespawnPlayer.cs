@@ -32,9 +32,5 @@ public class RespawnPlayer : MonoBehaviour
             player.transform.position = startPosition;
             Debug.Log("player went outside ");
         }
-
-
     }
-
-}    
-    
+}

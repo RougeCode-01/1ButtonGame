@@ -8,7 +8,6 @@ public class Score_manager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI CollectableText;
     private int collectablecount;
-    // Start is called before the first frame update
     void Start()
     {
         collectablecount = 0;

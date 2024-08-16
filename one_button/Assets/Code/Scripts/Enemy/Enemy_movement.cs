@@ -28,11 +28,6 @@ public class Enemy_movement : MonoBehaviour
     }
     void RotateAroundCircle()
     {
-        /*  Vector3 directionToPlayer = (Player.position - circleCenter.position).normalized;
-          Vector3 desiredPosition = circleCenter.position + directionToPlayer * radius;
-          Vector3 currentDirection = (transform.position - circleCenter.position).normalized;
-          float angleDiffrence = Vector3.SignedAngle(currentDirection, desiredPosition, Vector3.forward);*/
-
         transform.RotateAround(circleCenter.position, Vector3.forward, speed * Time.deltaTime);
     }
     
