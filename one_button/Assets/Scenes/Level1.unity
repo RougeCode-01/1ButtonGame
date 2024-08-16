@@ -294,6 +294,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4350406255020799947, guid: 532fd8dfc8d3efe41a0cdc84af3442a2, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1377396212}
     - target: {fileID: 4585190522548566465, guid: 532fd8dfc8d3efe41a0cdc84af3442a2, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -500,6 +504,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 380e506ba813af942b1c8e88a8e566d5, type: 3}
+--- !u!1 &1377396212 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8534429349953963442, guid: 8cb94f02ae928d34db77d038c4f780f2, type: 3}
+  m_PrefabInstance: {fileID: 158410424}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1443461405
 PrefabInstance:
   m_ObjectHideFlags: 0
