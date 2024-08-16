@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyCollectable : MonoBehaviour
+public class DestroyCollectable : MonoBehaviour,Icollectable
 {
     private Score_manager collectableCounter;
     private GameManager gameManager; // Reference to the GameManager
@@ -19,11 +19,15 @@ public class DestroyCollectable : MonoBehaviour
             Debug.Log("Collision Picked Up");
             if (collectableCounter != null)
             {
-                collectableCounter.CollectablePickedup();
-                gameManager.CollectibleCollected();
-                Destroy(gameObject);
+                Collect();
             }
             
         } 
+    }
+    public void Collect()
+    {
+        collectableCounter.CollectablePickedup();
+        gameManager.CollectibleCollected();
+        Destroy(gameObject);
     }
 }

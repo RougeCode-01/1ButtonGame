@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -8,16 +9,26 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Vector3 axis; // Axis of rotation
     [SerializeField] private string button; // Button to trigger actions
     [SerializeField] private float holdTime = 0.5f; // Time to wait for determining if the button was pressed or held
+    [SerializeField] private float delay = 3f;
 
     private float timer; // Timer to track button hold time
     private bool isJumping; // Flag to check if the player is jumping
     private Rigidbody2D _rigidbody2D; // Reference to the Rigidbody2D component
     private Transform _currentTarget; // Store the current target (collider)
+    private bool respawn;
+    
+    private RespawnPlayer respawnPlayer;
 
     private void Awake()
     {
         // Get the Rigidbody2D component
         _rigidbody2D = GetComponent<Rigidbody2D>();
+    }
+    private void Start()
+    {
+
+        respawnPlayer = FindObjectOfType<RespawnPlayer>();
+
     }
 
     private void Update()
@@ -121,5 +132,20 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("Attached to circle");
             AudioManager.Instance.PlayLandSound();
         }
+        if (other.gameObject.CompareTag("Enemy") && respawn==false)
+        {
+            StartCoroutine(Respawned());   
+        }
+    }
+
+    IEnumerator Respawned()
+    {
+        Debug.Log("Coroutine started");
+        respawn = true;
+        respawnPlayer.player.transform.position = respawnPlayer.startPosition;// respwns the player when it collides with the enemy
+        HealthManager.Instance.DecreaseHealth();
+        yield return new WaitForSeconds(delay);
+        respawn = false;
+        Debug.Log("Coroutine Ended");
     }
 }

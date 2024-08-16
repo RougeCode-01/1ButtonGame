@@ -70,4 +70,9 @@ public class HealthManager : Singleton<HealthManager>
         Health -= amount;
         updateHealthUI();
     }
+    public void IncreaseHealth(int add=1)
+    {
+        Health+= add;
+        updateHealthUI();
+    }
 }
